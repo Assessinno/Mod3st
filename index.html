@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOD3EST PROJECT | Ropa Deportiva Modesta para Hombres</title>
+    <meta name="description" content="Ropa deportiva premium diseñada para hombres musulmanes. Entrena con rendimiento, estilo y comodidad cubriendo tu awrah.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#inicio" class="logo">MOD3EST <span>PROJECT</span></a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#producto" class="nav-link">Producto</a>
+                <a href="#como-funciona" class="nav-link">Cómo funciona</a>
+                <a href="#mision" class="nav-link">Misión</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#envios" class="nav-link">Envíos</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+                <a href="#producto" class="btn btn-primary mobile-only-btn">Comprar ahora</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#producto" class="btn btn-primary desktop-only-btn">Comprar ahora</a>
+                <button class="cart-toggle-btn" id="cartToggleBtn" aria-label="Ver carrito">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content scroll-reveal">
+                <span class="badge-sadaqah"><i class="fas fa-heart"></i> 10% de los beneficios se donan como Sadaqah</span>
+                <h1>Entrena con comodidad, <br><span class="text-gold">cubriendo tu Awrah</span></h1>
+                <p class="hero-subtitle">Ropa deportiva premium diseñada para hombres musulmanes que buscan rendimiento, modestia y estilo sin compromisos.</p>
+                
+                <div class="stock-counter">
+                    <div class="stock-item"><span class="dot"></span> 20 unidades disp. en Talla S</div>
+                    <div class="stock-item"><span class="dot"></span> 20 unidades disp. en Talla M</div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#producto" class="btn btn-primary">Comprar ahora</a>
+                    <a href="https://wa.me/34640249205?text=Salam,%20me%20gustaría%20obtener%20más%20información%20sobre%20los%20shorts%20deportivos." target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Pedir por WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section bg-dark-variant">
+        <div class="container">
+            <div class="section-header text-center scroll-reveal">
+                <h2>¿Por qué MOD3EST?</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon"><i class="fas fa-shield-halved"></i></div>
+                    <h3>Cobertura completa</h3>
+                    <p>Diseñado específicamente para entrenar duro respetando tu awrah en cualquier movimiento.</p>
+                </div>
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon"><i class="fas fa-wind"></i></div>
+                    <h3>Máxima comodidad</h3>
+                    <p>Tejidos técnicos ultraligeros, transpirables y de alta elasticidad multidireccional.</p>
+                </div>
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon"><i class="fas fa-crown"></i></div>
+                    <h3>Diseño premium</h3>
+                    <p>Estética minimalista, sobria y sofisticada alineada con las tendencias actuales.</p>
+                </div>
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    <h3>Impacto positivo</h3>
+                    <p>Destinamos de forma transparente el 10% de cada beneficio neto como Sadaqah.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="producto" class="product-section">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-gallery scroll-reveal">
+                    <div class="main-image-container">
+                        <div class="premium-image-placeholder">
+                            <i class="fas fa-dumbbell product-bg-icon"></i>
+                            <div class="photo-tag">Colección Premium</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-info scroll-reveal">
+                    <span class="product-tag">Lanzamiento Exclusivo</span>
+                    <h2>Shorts deportivos MOD3EST</h2>
+                    <div class="product-price" id="productPriceDisplay" data-price="29.99">29,99 €</div>
+                    
+                    <p class="product-description">
+                        Shorts deportivos diseñados para entrenar con total libertad, comodidad y modestia. Incorporan una malla interior larga de compresión ligera que ayuda a cubrir la awrah perfectamente sin perder un ápice de movilidad ni añadir peso extra.
+                    </p>
+
+                    <div class="product-features-list">
+                        <h4>Características destacadas:</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Malla interior integrada hasta debajo de la rodilla.</li>
+                            <li><i class="fas fa-check"></i> Bolsillos laterales aerodinámicos con cremallera oculta.</li>
+                            <li><i class="fas fa-check"></i> Cintura elástica ergonómica con el logo oficial MOD3EST.</li>
+                            <li><i class="fas fa-check"></i> Material premium de secado rápido y alta transpirabilidad.</li>
+                            <li><i class="fas fa-check"></i> Ideal para crossfit, gimnasio, running, fútbol y calistenia.</li>
+                        </ul>
+                    </div>
+
+                    <div class="purchase-selectors">
+                        <div class="selector-group">
+                            <label for="sizeSelector">Selecciona tu talla:</label>
+                            <div class="custom-select-wrapper">
+                                <select id="sizeSelector">
+                                    <option value="S">Talla S (Stock disponible)</option>
+                                    <option value="M">Talla M (Stock disponible)</option>
+                                    <option value="L">Talla L</option>
+                                    <option value="XL">Talla XL</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="selector-group">
+                            <label for="qtySelector">Cantidad:</label>
+                            <div class="quantity-input-wrapper">
+                                <button type="button" class="qty-btn" id="qtyMinus">-</button>
+                                <input type="number" id="qtySelector" value="1" min="1" max="10" readonly>
+                                <button type="button" class="qty-btn" id="qtyPlus">+</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-actions-buttons">
+                        <button id="addToCartBtn" class="btn btn-primary btn-block"><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                        <button id="directWhatsappBtn" class="btn btn-whatsapp btn-block"><i class="fab fa-whatsapp"></i> Pedir por WhatsApp directamente</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="como-funciona" class="steps-section bg-dark-variant">
+        <div class="container">
+            <div class="section-header text-center scroll-reveal">
+                <h2>¿Cómo funciona tu pedido?</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card scroll-reveal">
+                    <div class="step-number">01</div>
+                    <div class="step-icon"><i class="fas fa-sliders"></i></div>
+                    <h3>Elige tu talla</h3>
+                    <p>Selecciona la talla que mejor se adapte a tu fisionomía de entrenamiento.</p>
+                </div>
+                <div class="step-card scroll-reveal">
+                    <div class="step-number">02</div>
+                    <div class="step-icon"><i class="fas fa-cart-plus"></i></div>
+                    <h3>Añade al carrito</h3>
+                    <p>Agrega los shorts al carrito básico integrado de la landing page.</p>
+                </div>
+                <div class="step-card scroll-reveal">
+                    <div class="step-number">03</div>
+                    <div class="step-icon"><i class="fab fa-whatsapp-square"></i></div>
+                    <h3>Finaliza el pedido</h3>
+                    <p>Se generará un mensaje automático para cerrar los detalles de envío por WhatsApp.</p>
+                </div>
+                <div class="step-card scroll-reveal">
+                    <div class="step-number">04</div>
+                    <div class="step-icon"><i class="fas fa-box-open"></i></div>
+                    <h3>Recibe en casa</h3>
+                    <p>Procesamos el envío de inmediato para que empieces a entrenar con modestia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mision" class="mission-section">
+        <div class="container">
+            <div class="mission-wrapper scroll-reveal">
+                <span class="gold-subtitle">Más que ropa deportiva</span>
+                <h2>Nuestra Misión</h2>
+                <p>
+                    <strong>MOD3EST PROJECT</strong> nace con el firme objetivo de ofrecer a los hombres musulmanes una alternativa deportiva de alto nivel que combine de manera perfecta rendimiento atlético, estética contemporánea y valores.
+                </p>
+                <p>
+                    Creemos firmemente que se puede cuidar la salud y entrenar con el máximo rendimiento y confianza sin tener que comprometer la modestia legislada. 
+                </p>
+                <blockquote class="mission-quote">
+                    "Entrena con propósito. Entrena con modestia."
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section bg-dark-variant">
+        <div class="container small-container">
+            <div class="section-header text-center scroll-reveal">
+                <h2>Preguntas Frecuentes</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="accordion-wrapper scroll-reveal">
+                <div class="accordion-item">
+                    <button class="accordion-header">¿Qué es el Awrah? <i class="fas fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <p>Es la parte del cuerpo que, por principios de modestia y decoro islámico, debe cubrirse de forma idónea durante las actividades públicas y la práctica deportiva.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">¿Puedo entrenar cómodamente con estos shorts? <i class="fas fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <p>Sí, por supuesto. Están fabricados y probados ergonómicamente para ofrecer una flexibilidad total, absorción del sudor óptima y total confort en dinámicas de alta intensidad.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">¿Qué tallas hay disponibles? <i class="fas fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <p>Actualmente disponemos de stock inicial optimizado en tallas S, M, L y XL.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">¿Realizan envíos a toda España? <i class="fas fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <p>Sí, realizamos envíos rápidos y certificados a nivel peninsular, Islas Baleares, Islas Canarias, Ceuta y Melilla.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">¿En cuánto tiempo llega mi pedido? <i class="fas fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <p>Los envíos nacionales toman normalmente entre 24 y 72 horas laborables una vez verificado el pedido.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">¿Cómo puedo pagar? <i class="fas fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <p>En esta fase de lanzamiento, gestionamos el pedido de forma cercana y humana directamente a través de WhatsApp. La arquitectura web está fully-ready para implementar pasarelas automatizadas como Stripe, PayPal o Bizum a corto plazo.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">¿Puedo devolver el producto? <i class="fas fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <p>Sí, garantizamos un derecho de desistimiento y devolución de 14 días naturales tras la recepción del producto, siempre que este se encuentre sin usar y en su embalaje original.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="envios" class="shipping-section">
+        <div class="container">
+            <div class="section-header text-center scroll-reveal">
+                <h2>Logística y Entregas</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="shipping-grid">
+                <div class="shipping-card scroll-reveal">
+                    <div class="shipping-icon"><i class="fas fa-truck-fast"></i></div>
+                    <h3>España</h3>
+                    <p class="shipping-time">24 - 72 horas laborables</p>
+                    <p class="shipping-desc">Entrega ágil a la puerta de tu domicilio con las agencias líderes de transporte.</p>
+                </div>
+                <div class="shipping-card scroll-reveal">
+                    <div class="shipping-icon"><i class="fas fa-earth-europe"></i></div>
+                    <h3>Europa</h3>
+                    <p class="shipping-time">3 - 7 días laborables</p>
+                    <p class="shipping-desc">Envíos internacionales directos con trazabilidad completa garantizada.</p>
+                </div>
+                <div class="shipping-card scroll-reveal">
+                    <div class="shipping-icon"><i class="fas fa-route"></i></div>
+                    <h3>Seguimiento</h3>
+                    <p class="shipping-time">Localización Online</p>
+                    <p class="shipping-desc">Recibe un código de tracking detallado en tiempo real para monitorizar tu paquete.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section bg-dark-variant">
+        <div class="container">
+            <div class="section-header text-center scroll-reveal">
+                <h2>Opiniones de la Comunidad</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card scroll-reveal">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Por fin unos shorts deportivos estables que me permiten entrenar en el box de crossfit con total comodidad y tranquilidad mental."</p>
+                    <span class="testimonial-author">- Ahmed R.</span>
+                </div>
+                <div class="testimonial-card scroll-reveal">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"La calidad de la tela elástica interior es increíble. Se nota el corte premium y se ajusta a la perfección sin molestar al correr."</p>
+                    <span class="testimonial-author">- Yasin M.</span>
+                </div>
+                <div class="testimonial-card scroll-reveal">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Me aporta un valor brutal saber que una parte del beneficio va destinada directamente como Sadaqah. Una marca con propósito real."</p>
+                    <span class="testimonial-author">- Bilal K.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="final-cta-section">
+        <div class="container text-center scroll-reveal">
+            <h2>¿Buscas entrenar cubriendo tu Awrah?</h2>
+            <p>Puede que esto sea exactamente lo que necesitabas para elevar el nivel de tus entrenamientos.</p>
+            <div class="cta-buttons">
+                <a href="#producto" class="btn btn-primary">Comprar ahora</a>
+                <a href="https://wa.me/34640249205?text=Salam,%20quiero%20hacer%20un%20pedido." target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Hablar por WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#inicio" class="logo">MOD3EST <span>PROJECT</span></a>
+                <p class="footer-tagline">Entrena con propósito. Entrena con modestia.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#producto">Producto</a>
+                <a href="#mision">Misión</a>
+                <a href="#faq">FAQ</a>
+                <a href="#envios">Envíos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="footer-socials">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/34640249205" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 MOD3EST PROJECT. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="cart-sidebar-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Tu Carrito</h3>
+            <button class="cart-close-btn" id="cartCloseBtn">&times;</button>
+        </div>
+        <div class="cart-body" id="cartBody">
+            <p class="empty-cart-msg">Tu carrito está vacío.</p>
+        </div>
+        <div class="cart-footer" id="cartFooter" style="display: none;">
+            <div class="cart-subtotal">
+                <span>Subtotal:</span>
+                <span id="cartSubtotalAmount">0,00 €</span>
+            </div>
+            <button id="checkoutCartBtn" class="btn btn-whatsapp btn-block"><i class="fab fa-whatsapp"></i> Finalizar pedido por WhatsApp</button>
+            <div class="payment-readiness-notice">
+                <p><i class="fas fa-lock"></i> Pasarelas de pago online (Stripe/PayPal/Bizum) preparadas para activación inmediata.</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/34640249205?text=Salam!%20Vengo%20de%20la%20web%20y%20tengo%20una%20consulta." class="floating-whatsapp-btn" target="_blank" aria-label="Contacto directo por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
